@@ -16,8 +16,8 @@ html {
     word-spacing: -0.1em;
     width: 50%;
     max-width: 650px;
-    -webkit-font-smoothing: antialiased;
-    }
+/*    -webkit-font-smoothing: antialiased;
+*/    }
 
 a {
 	color:  red;
