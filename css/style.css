@@ -1,0 +1,31 @@
+@font-face {
+  font-family: hersh;
+  src: url(../assets/Hershey-Noailles-Futura-Duplex-Regular.ttf);
+}
+
+html {
+		font-size: 16px;
+		margin:  1em;
+}
+
+#bio {
+		font-family: sans-serif;
+    font-size: 1em;
+    line-height: 1.15em;
+    letter-spacing: .05em;
+    word-spacing: -0.1em;
+    width: 50%;
+    max-width: 650px;
+    -webkit-font-smoothing: antialiased;
+    }
+
+a {
+	color:  red;
+}
+
+@media screen and (max-width: 780px) {
+	#bio {
+		width:  100%;
+	}
+}
+
