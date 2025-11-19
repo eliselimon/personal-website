@@ -23,6 +23,11 @@ a {
 	color:  red;
 }
 
+a:link {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
 @media screen and (max-width: 780px) {
 	#bio {
 		width:  100%;
