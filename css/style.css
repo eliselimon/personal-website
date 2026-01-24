@@ -48,3 +48,12 @@ a:link {
   height: auto;     /* maintain aspect ratio */
   display: block;   /* remove small gaps under images */
 }
+
+.back-title {
+  font-family: sans-serif;   /* same as Back link */
+  font-size: 1em;            /* match Back link size */
+  letter-spacing: 0.05em;    /* same as #bio */
+  color: red;                /* same color as Back link */
+  text-decoration: none;     /* like the link */
+  margin: 0;                 /* remove extra spacing */
+}
