@@ -34,3 +34,17 @@ a:link {
 	}
 }
 
+/* Graphic page image styling */
+.graphic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 24px; /* space between images */
+  max-width: 900px; /* optional container limit */
+  margin: 0 auto; /* center grid */
+}
+
+.graphic-grid img {
+  width: 100%;      /* images fill the column width */
+  height: auto;     /* maintain aspect ratio */
+  display: block;   /* remove small gaps under images */
+}
